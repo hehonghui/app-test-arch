@@ -208,5 +208,6 @@ public class MainPresenter extends Presenter<MainView> {
 ## 参考资料
 
 * [《Android开发进阶 从小工到专家》单元测试章节](http://item.jd.com/11880368.html)
-* [小创](http://chriszou.com/)
+* [Google应用多种架构项目示例（包含应用架构、测试）](https://github.com/googlesamples/android-architecture)
+* [小创的单元测试系列文章](http://chriszou.com/)
 * [Mockito中文文档](https://github.com/hehonghui/mockito-doc-zh)
