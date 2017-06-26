@@ -1,0 +1,17 @@
+<manifest package="com.simple.leakfortest"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- To store the heap dumps and leak analysis results. -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application android:allowBackup="true"
+                 android:label="@string/app_name"
+                 android:supportsRtl="true"
+    >
+
+        <!--要追加的部分-->
+        <service android:name="com.simple.leakfortest.LeakDumpService" />
+    </application>
+
+</manifest>
